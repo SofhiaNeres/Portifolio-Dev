@@ -16,6 +16,15 @@
     }
 }
 
+@keyframes scrollAutomatico {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50% - 20px));
+        /* Move metade do conteúdo + metade do gap */
+    }
+}
 
 @keyframes scrollNormal {
     0% {

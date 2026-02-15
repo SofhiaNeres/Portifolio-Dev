@@ -2,6 +2,8 @@
    RESPONSIVIDADE - TELA MÉDIA (TABLETS E LAPTOPS PEQUENOS)
    =========================== */
 
+
+
 @media screen and (max-width: 1024px) {
     /* HEADER */
     header > h1 {
@@ -404,6 +406,10 @@
     .contato-info > p {
         font-size: 1.25em;
     }
+
+     .contato-container> img{
+        width: 30%;
+    }
 }
 
 
@@ -726,17 +732,14 @@
         font-size: 1.15em;
     }
 
-    .social-links {
-        gap: 15px;
-        margin-top: 25px;
+      .contato-container> img{
+        display: none;
     }
 
-    .social-links > a {
-        width: 48px;
-        height: 48px;
-        font-size: 1.4em;
-    }
+   
 }
+
+
 
 .social-links {
     display: flex;
@@ -1258,20 +1261,8 @@
         text-transform: uppercase;
     }
 
-    .social-links {
-        gap: 15px;
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .social-links > a {
-        width: 50px;
-        height: 50px;
-        font-size: 1.4em;
-        background: #f8f9fa;
-        border: 2px solid #e2e8f0;
-        color: #0a0e27;
+    .contato-container> img{
+        display: none;
     }
 }
 
