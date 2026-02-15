@@ -1,2 +1,4 @@
-# Portifolio-Dev
-Portfólio com projetos de desenvolvimento web e programação, envolvendo tanto a construção de interfaces quanto a lógica das aplicações. Focado em aprendizado contínuo, boas práticas e desenvolvimento de soluções eficientes.
+Projeto desenvolvido com o objetivo de apresentar atravez de um web portifolio minhas habilidades e projetos na área de tecnologia.
+
+Transformo ideias em experiências digitais. Sou estudante de Desenvolvimento de Sistemas, apaixonada por tecnologia, design e criação de interfaces modernas. Estou em constante evolução, buscando aprender novas ferramentas e aprimorar minhas habilidades para construir soluções eficientes e elegantes.
+
