@@ -1,0 +1,53 @@
+@keyframes stick {
+    0%{
+        transform: translateY(0) translateZ(0) rotateX(0) scale(1);
+    }
+
+    35%{
+         transform: translateY(100px) translateZ(-200px) rotateX(8deg) scale(.92);
+    }
+
+    70%{
+         transform: translateY(20px) translateZ(-120px) rotateX(2deg) scale(.95);
+    }
+
+    100%{
+        transform: translateY(0) translateZ(0) rotateX(0) scale(1);
+    }
+}
+
+
+@keyframes scrollNormal {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform:  translateX(-70%);
+    }
+}
+
+
+@keyframes scrollDiagonalSlowImagem {
+    0% {
+        transform: rotate(8deg) translateX(0);
+    }
+    100% {
+        transform: rotate(8deg) translateX(-49%);
+    }
+}
+
+@keyframes LuzNoTexto {
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes virarDeLado{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-15deg);
+    }
+
+}
