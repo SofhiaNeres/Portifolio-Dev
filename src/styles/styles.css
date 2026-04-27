@@ -1,0 +1,77 @@
+@import url(home.css);
+@import url(animacoes.css);
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --white: #FAFAF8;
+    --cream: #F4F2EC;
+    --sand: #E8E4DA;
+    --stone: #C9C4B8;
+    --muted: #9C9589;
+    --ink: #2A2520;
+    --ink-light: #6B6560;
+    --accent: #C17D4E;
+    --accent-light: #E8C9AA;
+    --accent-pale: #F8F0E8;
+    --shadow-soft: 0 2px 20px rgba(42,37,32,0.06), 0 1px 4px rgba(42,37,32,0.04);
+    --shadow-card: 0 4px 32px rgba(42,37,32,0.08), 0 1px 8px rgba(42,37,32,0.04);
+    --shadow-hover: 0 8px 48px rgba(42,37,32,0.12), 0 2px 12px rgba(42,37,32,0.06);
+    --radius: 16px;
+    --radius-sm: 8px;
+    --radius-pill: 100px;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--white);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(250,250,248,0.88);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(42,37,32,0.06);
+  }
+
+  .nav-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-logo span { color: var(--accent); }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--ink-light);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--accent); }
+
+ 
